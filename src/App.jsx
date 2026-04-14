@@ -5,6 +5,8 @@ import Problems from './Components/Problems'
 import Services from './Components/Services'
 import SecondHero from './Components/secondhero'
 import Footer from './Components/footer'
+import Contact from './Components/contact'
+
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
       <Problems />
       <Services / >
       <SecondHero />
+      <Contact />
       <Footer/>
 
     </div>
