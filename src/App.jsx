@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
-import Section_1 from './Components/Section1'
-import Services from './Components/Section2'
+import Problems from './Components/Problems'
+import Services from './Components/Services'
 
 const App = () => {
   return (
     <div>
       <Header />
       <Hero / >
-      <Section_1/>
-      <Services/>
+      <Problems />
+      <Services / >
     </div>
   )
 }

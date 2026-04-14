@@ -2,15 +2,15 @@
 function Header(){
   return (
     // Creating container
-    <div>
+    <div className="flex justify-evenly  ">
       <h1>Mxdelite</h1>
        {/* Creating Nav container */}
-      <nav>
+      <nav className="">
         {/* Nav elements */}
         <a href="">Services</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="">Start Your Project</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Start Your Project</a>
       </nav>
     </div>
   );

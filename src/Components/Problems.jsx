@@ -1,5 +1,5 @@
 // Created function for section
-function Section_1(){
+function Problems(){
   return (
     <div class="Problems">
       <div class="Section num">01 — The Problem</div>
@@ -45,4 +45,4 @@ function Section_1(){
 
   );
 }
-export default Section_1;
+export default Problems;
