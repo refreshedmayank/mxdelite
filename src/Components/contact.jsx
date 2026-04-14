@@ -1,6 +1,6 @@
 function Contact(){
   return(
-    <div>
+    <div className="contact-grid grid grid-cols-2" >
     <div className="contact-emails-and-heading border">
       <span>04 — Contact</span>
       <h3>Let's build</h3>
@@ -22,7 +22,7 @@ function Contact(){
           </li>
         </ul>
     </div>
-     <div className="Form border " >
+     <div className="Form border text-center" >
       <label htmlFor="Name">Name</label><br />
       <input type="text" name="" id="" /> <br />
       <label htmlFor="Email">Email</label><br />
