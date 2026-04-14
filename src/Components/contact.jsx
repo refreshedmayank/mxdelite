@@ -22,14 +22,14 @@ function Contact(){
           </li>
         </ul>
     </div>
-     <div className="Form border text-center" >
-      <label htmlFor="Name">Name</label><br />
-      <input type="text" name="" id="" /> <br />
-      <label htmlFor="Email">Email</label><br />
-      <input type="text" /> <br />
-      <label htmlFor="Project-brief">Project Brief</label> <br />
-      <textarea name="project-brief" id=""></textarea>
-      <button className="bg-white text-black p-2 ml-10">Submit</button>
+     <div className="Form border text-center " >
+      <label htmlFor="Name">Name</label><br /><br />
+      <input className="border bg-transparent text-center text-white" type="text" name="" id="" /> <br /><br />
+      <label htmlFor="Email">Email</label><br /><br />
+      <input className=" text-white border bg-transparent" type="text" /> <br /> <br />
+      <label htmlFor="Project-brief">Project Brief</label> <br /> <br />
+      <textarea className="border bg-transparent text-center "  name="project-brief" id=""></textarea> <br /><br />
+      <button className="bg-transparent border p-2 ml-10">Submit</button>
      </div>
 
     </div>

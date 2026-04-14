@@ -2,7 +2,7 @@
 function Header(){
   return (
     // Creating container
-    <div className="Container border p-4">
+    <div className="Container border p-5">
       <nav className="flex justify-between">
        <a>Mxdelite</a>
         <a href="">Services</a>
