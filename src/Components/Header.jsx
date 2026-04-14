@@ -3,7 +3,7 @@ function Header(){
   return (
     // Creating container
     <div>
-      <h1>Mxdelite</h1>
+      <h1 className="">Mxdelite</h1>
        {/* Creating Nav container */}
       <nav>
         {/* Nav elements */}
