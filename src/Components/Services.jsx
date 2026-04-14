@@ -1,10 +1,10 @@
 // Created service Function
 function Services() {
   return (
-    <div class="Service Card">
+    <div className="Service Card border grid grid-cols-5">
       02 — Services
       <h2>What We Build</h2>
-      <div class="websites">
+      <div class="websites border">
         01
         <h3>Websites</h3>
         <p>
@@ -13,7 +13,7 @@ function Services() {
         </p>
         <p>The result — presence that sells</p>
       </div>
-      <div>
+      <div className="Brand border">
         02
         <h3>Brand Identity</h3>
         <p>
@@ -22,7 +22,7 @@ function Services() {
         </p>
         <p>The result — a brand that owns the room</p>
       </div>
-      <div class="Social Media">
+      <div className="Social Media border">
         03
         <h3>Social Media</h3>
         <p>

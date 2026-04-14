@@ -1,11 +1,11 @@
 // Created function for section
 function Problems(){
   return (
-    <div class="Problems">
+    <div className="Problems border grid grid-cols-5  ">
       <div class="Section num">01 — The Problem</div>
       {/* div started */}
       <div class="Problem">
-        <h2 class="Problem Headline">
+        <h2 class="Problem Headline ">
           Your product is good. Your brand is why people aren't buying.
         </h2>
         <p>
@@ -15,7 +15,7 @@ function Problems(){
         </div>
         {/* div ended */}
          {/* div Started */}
-        <div class="Startups">
+        <div className="Startups border ">
           Startups
           <h3>
             Have the idea. Don't have the presentation. That's the gap we fill.
@@ -23,7 +23,7 @@ function Problems(){
         </div>
          {/* div ended */}
          {/* div Started */}
-        <div class="Ecommerce">
+        <div className="Ecommerce border  ">
           E-commerce
           <h3>
             Spending on ads but losing sales at first impression. Branding is
