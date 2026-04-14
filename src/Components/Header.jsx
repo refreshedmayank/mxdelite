@@ -2,11 +2,12 @@
 function Header(){
   return (
     // Creating container
-    <div className="flex justify-evenly  ">
+    <div className="flex">
       <h1>Mxdelite</h1>
-       {/* Creating Nav container */}
+      {/* Creating Nav container */}
       <nav className="">
         {/* Nav elements */}
+        <a>Mxdelite</a>
         <a href="">Services</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
