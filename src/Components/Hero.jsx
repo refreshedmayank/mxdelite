@@ -1,3 +1,4 @@
+import MediaQuery from "react-responsive";
 function Hero(){
   return (
     <div className="Hero border">

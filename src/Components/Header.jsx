@@ -1,7 +1,8 @@
 function Header(){
   return(<div>
-      <nav className="border z-50 bg-black text-white fixed top-0 left-0 w-full border-b-white/20  " >
-        <ul className=" flex justify-between p-8">
+      <nav className="border z-50 bg-black text-white fixed top-0 left-0 w-full border-b-white/20   " >
+        <ul className=
+        " flex items-start gap-3 p-4 flex-col md:flex-row md:justify-between md:p-8">
           <li className="Mxdelite-logo">Mxdelite</li>
           <li><a href="#Services">Services</a></li>
           <li><a href="#About">About</a></li>
