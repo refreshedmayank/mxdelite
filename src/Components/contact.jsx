@@ -1,9 +1,14 @@
 function Contact(){
   return(
-    <div className="contact-grid grid grid-cols-2" >
-    <div className="contact-emails-and-heading border">
+    <div className="contact-grid grid grid-cols-2 p-10  gap-6 border border-b-white/20" >
+
+    {/* Right column */}
+    <div className="right-column p-10 flex flex-col gap-6">
       <span>04 — Contact</span>
-      <h3>Let's build</h3>
+      <h2 className="flex flex-col gap-2">
+        <span>Let's</span>
+        <span>build</span>
+      </h2>
       <p>
         Tell us about your project. We will get back to you within 24 hours with
         a plan built around your brand.</p>
@@ -22,7 +27,9 @@ function Contact(){
           </li>
         </ul>
     </div>
-     <div className="Form border text-center " >
+
+{/* left column */}
+     <div className="left-column border text-center p-10  border-b-white/20 " >
       <label htmlFor="Name">Name</label><br /><br />
       <input className="border bg-transparent text-center text-white" type="text" name="" id="" /> <br /><br />
       <label htmlFor="Email">Email</label><br /><br />
