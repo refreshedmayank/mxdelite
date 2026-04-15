@@ -23,14 +23,14 @@ function Contact(){
     </div>
 
 {/* left column */}
-     <div className="left-column border text-center p-10  border-b-white/20 " >
+     <div className="left-column border text-center p-10  border-b-white/20 flex flex-col  " >
       <label htmlFor="Name">Name</label><br /><br />
-      <input className="border bg-transparent text-center text-white" type="text" name="" id="" /> <br /><br />
+      <input className="p-3 border bg-transparent text-center text-white" type="text" name="" id="" /> <br /><br />
       <label htmlFor="Email">Email</label><br /><br />
-      <input className=" text-white border bg-transparent" type="text" /> <br /> <br />
+      <input className="p-3 text-white border bg-transparent" type="text" /> <br /> <br />
       <label htmlFor="Project-brief">Project Brief</label> <br /> <br />
-      <textarea className="border bg-transparent text-center "  name="project-brief" id=""></textarea> <br />br
-      <button className="bg-transparent border p-2 ml-10">Submit</button>
+      <textarea className= " p-3 border bg-transparent text-center "  name="project-brief" id=""></textarea> <br />
+      <button className="bg-transparent border p-2 ml-10  " >Submit</button>
      </div>
 
     </div>
