@@ -28,7 +28,7 @@ function Contact(){
       <label htmlFor="Email">Email</label><br /><br />
       <input className=" text-white border bg-transparent" type="text" /> <br /> <br />
       <label htmlFor="Project-brief">Project Brief</label> <br /> <br />
-      <textarea className="border bg-transparent text-center "  name="project-brief" id=""></textarea> <br /><br />
+      <textarea className="border bg-transparent text-center "  name="project-brief" id=""></textarea> <br />br
       <button className="bg-transparent border p-2 ml-10">Submit</button>
      </div>
 
