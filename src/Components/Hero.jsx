@@ -1,6 +1,6 @@
 function Hero(){
   return (
-    <div className="Hero">
+    <div className="Hero border">
       <section className="Hero-section mt-24 ">
         <div className="Hero-Headline  p-8 flex flex-col items-center ">
           <h1>We turn invisible</h1> <br />

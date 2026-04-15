@@ -1,6 +1,6 @@
 function Problems(){
   return (
-    <div className="grid-container grid grid-cols-2 gap-10 p-10">
+    <div className="grid-container grid grid-cols-2 gap-10 p-10 border ">
       <div className="Left-side-column">
         <span>01 — The Problem</span>
         <h2 className="flex flex-col gap-2 items-center">
@@ -11,7 +11,7 @@ function Problems(){
           </h2>
 
 
-         <p>Most businesses lose customers before they even get a chance to sell.
+        <p>Most businesses lose customers before they even get a chance to sell.
         The product is not the problem. The first impression is. We fix that.</p>
       </div>
       <div className="Righ-column-divs flex flex-col gap-6 ">
