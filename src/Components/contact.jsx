@@ -12,20 +12,14 @@ function Contact(){
       <p>
         Tell us about your project. We will get back to you within 24 hours with
         a plan built around your brand.</p>
-        <ul>
+          <div className="contact-links flex flex-col gap-2">
           <span>Email</span>
-          <li>
             <a href="#">mxdelitehq@gmail.com</a>
-          </li>
           <span>Instagram</span>
-          <li>
             <a href="#">@mxdelite</a>
-          </li>
           <span>Location</span>
-          <li>
             <a href="#">Available Worldwide</a>
-          </li>
-        </ul>
+            </div>
     </div>
 
 {/* left column */}
