@@ -1,5 +1,5 @@
 function Footer(){
-  return(<div className=" fotter-elements flex justify-between p-3">
+  return(<div className=" fotter-elements flex justify-between p-10 items-center">
     <h2>MXDELITE</h2>
     <h2>Instagram</h2>
     <h2>Email</h2>
