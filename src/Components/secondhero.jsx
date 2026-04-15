@@ -1,7 +1,7 @@
 function SecondHero(){
   return (
-    <div className="Secondhero border p-10 flex text-center">
-      <h1>
+    <div className="Secondhero border p-10 flex flex-col gap-4 text-center ">
+      <h1 className="flex flex-col gap-2">
         <span>We do not do</span>
         <span>average.</span>
       </h1>
