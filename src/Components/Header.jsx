@@ -1,7 +1,7 @@
 function Header(){
   return(<div>
       <nav className=" -z-50 bg-black text-white fixed top-0 left-0 w-full  " >
-        <ul className="flex justify-between p-8">
+        <ul className=" flex justify-between p-8">
           <li className="Mxdelite-logo">Mxdelite</li>
           <li><a href="#Services">Services</a></li>
           <li><a href="#About">About</a></li>
