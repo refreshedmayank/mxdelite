@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
-import Problems from './Components/Problems'
+import Problems from './Components/Problems.jsx'
 import Services from './Components/Services'
 import SecondHero from './Components/secondhero'
 import Footer from './Components/footer'
@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <Header />
       <Hero />
-      <Problems />
+      <Problems/>
       <Services / >
       <SecondHero />
       <Contact />
