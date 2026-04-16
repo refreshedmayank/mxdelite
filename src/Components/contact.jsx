@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div className="flex flex-col gap-6">
-      <div className="border">
+      <div className="r">
         <span>04 — Contact</span>
         <h2>Let's build</h2>
         <p>
@@ -18,7 +18,7 @@ function Contact() {
         </div>
       </div>
 
-      <div className="border p-6 flex flex-col text-lg">
+      <div className=" p-6 flex flex-col text-lg">
         <label htmlFor="name">Name</label>
         <input className="" type="text" id="name" />
         <label htmlFor="email">Email</label>
