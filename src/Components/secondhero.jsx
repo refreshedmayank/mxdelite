@@ -1,10 +1,7 @@
-function SecondHero(){
+function SecondHero() {
   return (
-    <div className="Secondhero border p-10 flex flex-col gap-4 text-center ">
-      <h1 className="flex flex-col gap-2">
-        <span>We do not do</span>
-        <span>average.</span>
-      </h1>
+    <div>
+      <h1>We do not do average.</h1>
       <p>
         Every project is built from scratch. No templates. No shortcuts. No
         compromises. We obsess over the details most agencies ignore — because
@@ -14,4 +11,5 @@ function SecondHero(){
     </div>
   );
 }
-export default SecondHero
+
+export default SecondHero;

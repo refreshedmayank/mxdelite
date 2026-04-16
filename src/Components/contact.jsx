@@ -1,39 +1,34 @@
-function Contact(){
-  return(
-    <div className="contact-grid grid grid-cols-2 p-10  gap-6 border border-b-white/20" >
-
-    {/* Right column */}
-    <div className="right-column p-10 flex flex-col gap-6">
-      <span>04 — Contact</span>
-      <h2 className="flex flex-col gap-2">
-        <span>Let's</span>
-        <span>build</span>
-      </h2>
-      <p>
-        Tell us about your project. We will get back to you within 24 hours with
-        a plan built around your brand.</p>
-          <div className="contact-links flex flex-col gap-2">
+function Contact() {
+  return (
+    <div>
+      <div>
+        <span>04 — Contact</span>
+        <h2>Let's build</h2>
+        <p>
+          Tell us about your project. We will get back to you within 24 hours
+          with a plan built around your brand.
+        </p>
+        <div>
           <span>Email</span>
-            <a href="#">mxdelitehq@gmail.com</a>
+          <a href="#">mxdelitehq@gmail.com</a>
           <span>Instagram</span>
-            <a href="#">@mxdelite</a>
+          <a href="#">@mxdelite</a>
           <span>Location</span>
-            <a href="#">Available Worldwide</a>
-            </div>
-    </div>
+          <a href="#">Available Worldwide</a>
+        </div>
+      </div>
 
-{/* left column */}
-     <div className="left-column border text-center p-10  border-b-white/20 flex flex-col  " >
-      <label htmlFor="Name">Name</label><br /><br />
-      <input className="p-3 border bg-transparent text-center text-white" type="text" name="" id="" /> <br /><br />
-      <label htmlFor="Email">Email</label><br /><br />
-      <input className="p-3 text-white border bg-transparent" type="text" /> <br /> <br />
-      <label htmlFor="Project-brief">Project Brief</label> <br /> <br />
-      <textarea className= " p-3 border bg-transparent text-center "  name="project-brief" id=""></textarea> <br />
-      <button className="bg-transparent border p-2 ml-10  " >Submit</button>
-     </div>
-
+      <div>
+        <label htmlFor="name">Name</label>
+        <input type="text" id="name" />
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" />
+        <label htmlFor="project-brief">Project Brief</label>
+        <textarea id="project-brief" name="project-brief"></textarea>
+        <button type="submit">Submit</button>
+      </div>
     </div>
   );
 }
+
 export default Contact;
