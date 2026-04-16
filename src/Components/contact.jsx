@@ -3,16 +3,20 @@ import { supabase } from "./supabase";
 function Contact() {
   const [form, setform] = useState({name: "", email: "", project_brief: "", })
 
-function Handlechange(){
-
-}
-function Savetodb(){
-
+function Handlechange(e){
+  setform({...form, [e.target.id]: e.target.value})}
+ const Handlesubmit = async()=> {
+  const {error} = await supabase
+  .from('contacts')
+  .insert([form])
+  if (error){
+    alert("something went wrong")
+  } else{
+    alert("Message sent")
+    setform({name: "", email: " ", project_brief: ""})
   }
-function Handlesubmit(){
-
-
   }
+
   return (
     <div className="flex flex-col gap-6">
       <div className="r">
@@ -33,16 +37,45 @@ function Handlesubmit(){
       </div>
 
       <div className=" p-6 flex flex-col text-lg">
-        <label className="text-center" htmlFor="name">Name</label>
-        <input  className="rounded-sm bg-black border" type="text" id="name" value={form.name} onChange={Handlechange} />
-        <label className="text-center" htmlFor="email  ">Email</label>
-        <input className="rounded-sm border bg-transparent text-white " type="email" id="email" value={form.email} onChange={Handlechange} />
-        <label className="text-center" htmlFor="project-brief">Project Brief</label>
-        <textarea className="rounded-sm bg-transparent border text-white " id="project-brief" name="project-brief" value={form.project_brief} onChange={Handlechange} ></textarea>
-        <button className=  " rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto" type="submit" onClick={Handlesubmit}  >Submit</button>
+        <label className="text-center" htmlFor="name">
+          Name
+        </label>
+        <input
+          className="rounded-sm bg-black border"
+          type="text"
+          id="name"
+          value={form.name}
+          onChange={Handlechange}
+        />
+        <label className="text-center" htmlFor="email  ">
+          Email
+        </label>
+        <input
+          className="rounded-sm border bg-transparent text-white "
+          type="email"
+          id="email"
+          value={form.email}
+          onChange={Handlechange}
+        />
+        <label className="text-center" htmlFor="project-brief">
+          Project Brief
+        </label>
+        <textarea
+          className="rounded-sm bg-transparent border text-white "
+          id="project_brief"
+          name="project_brief"
+          value={form.project_brief}
+          onChange={Handlechange}
+        ></textarea>
+        <button
+          className=" rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto"
+          type="submit"
+          onClick={Handlesubmit}
+        >
+          Submit
+        </button>
       </div>
     </div>
-  );
-}
+  );}
 
 export default Contact;
