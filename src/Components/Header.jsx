@@ -7,12 +7,12 @@ function Header() {
         <button className="w-10" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
-        <span>Mxdelite</span>
+        <span className="font-['Montserrat']">Mxdelite</span>
         <div className="w-10"></div>
       </div>
       {isopen && (
-        <nav>
-          <ul>
+        <nav className="">
+          <ul className="">
             <li>
               <a href="#Services">Services</a>
             </li>
