@@ -3,7 +3,7 @@ function Header() {
   const [isopen, setisopen] = useState(false)
   return (
     <div>
-      <div className="border text-center flex justify-between items-center p-4">
+      <div className="border border-b-white/20 text-center flex justify-between items-center p-4">
         <button className="w-10" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
