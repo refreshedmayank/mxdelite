@@ -1,6 +1,6 @@
 function SecondHero() {
   return (
-    <div>
+    <div className="border p-10 border-b-white/20 text-lg">
       <h1>We do not do average.</h1>
       <p>
         Every project is built from scratch. No templates. No shortcuts. No
