@@ -5,8 +5,11 @@ function Header() {
     <div>
       <div className="border text-center">
         <span>Mxdelite</span>
-        <button>☰</button>
+        <button onClick={() => setisopen(!isopen)}>
+          {isopen ? "x" : "☰"}
+        </button>
       </div>
+      {isopen && (
       <nav>
         <ul>
           <li>
@@ -22,7 +25,7 @@ function Header() {
             <a href="#Start Your Project">Start Your Project</a>
           </li>
         </ul>
-      </nav>
+      </nav>)}
     </div>
   );
 }
