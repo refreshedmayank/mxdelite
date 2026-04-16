@@ -1,4 +1,18 @@
+import { useState } from "react";
+import { supabase } from "./supabase";
 function Contact() {
+  const [form, setform] = useState({name: "", email: "", project_brief: "", })
+
+function Handlechange(){
+
+}
+function Savetodb(){
+
+  }
+function Handlesubmit(){
+
+
+  }
   return (
     <div className="flex flex-col gap-6">
       <div className="r">
@@ -20,12 +34,12 @@ function Contact() {
 
       <div className=" p-6 flex flex-col text-lg">
         <label className="text-center" htmlFor="name">Name</label>
-        <input  className="rounded-sm bg-black border" type="text" id="name" />
+        <input  className="rounded-sm bg-black border" type="text" id="name" value={form.name} onChange={Handlechange} />
         <label className="text-center" htmlFor="email  ">Email</label>
-        <input className="rounded-sm border bg-transparent text-white " type="email" id="email" />
+        <input className="rounded-sm border bg-transparent text-white " type="email" id="email" value={form.email} onChange={Handlechange} />
         <label className="text-center" htmlFor="project-brief">Project Brief</label>
-        <textarea className="rounded-sm bg-transparent border text-white " id="project-brief" name="project-brief"></textarea>
-        <button className=  " rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto" type="submit">Submit</button>
+        <textarea className="rounded-sm bg-transparent border text-white " id="project-brief" name="project-brief" value={form.project_brief} onChange={Handlechange} ></textarea>
+        <button className=  " rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto" type="submit" onClick={Handlesubmit}  >Submit</button>
       </div>
     </div>
   );
