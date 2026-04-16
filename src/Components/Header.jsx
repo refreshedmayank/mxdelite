@@ -1,9 +1,14 @@
+import { useState } from "react";
 function Header() {
+  const [isopen, setisopen] = useState(false)
   return (
     <div>
+      <div className="border text-center">
+        <span>Mxdelite</span>
+        <button>☰</button>
+      </div>
       <nav>
         <ul>
-          <li>Mxdelite</li>
           <li>
             <a href="#Services">Services</a>
           </li>
