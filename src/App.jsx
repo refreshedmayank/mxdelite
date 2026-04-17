@@ -10,10 +10,10 @@ import Contact from "./Components/contact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mxdelite">
       <Header />
       <Routes>
-        <Route path="/Home" element={<Hero />} />
+        <Route path="/" element={<Hero />} />
         <Route path="/services" element={<Services />} />
         <Route path="/problems" element={<Problems />} />
         <Route path="/contact" element={<Contact />} />

@@ -16,7 +16,7 @@ function Header() {
       {isopen && (
         <nav className="bg-black  fixed top-0 left-0 h-full w-full text-white">
           <div className="mt-20 p-6 flex flex-col gap-10 text-center">
-            <Link to="/Home" onClick={closemenu}>Home</Link>
+            <Link to="/" onClick={closemenu}>Home</Link>
             <Link className="" to="/services" onClick={closemenu}>
               Services
             </Link>
