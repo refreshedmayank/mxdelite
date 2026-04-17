@@ -6,7 +6,7 @@ function Header() {
     setisopen(false)}
   return (
     <div>
-      <div className="border bg-black  text-center flex justify-between items-center p-4 z-50 fixed top-0 left-0 w-full ">
+      <div className=" bg-black  text-center flex justify-between items-center p-4 z-50 fixed top-0 left-0 w-full ">
         <button className="w-10" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
