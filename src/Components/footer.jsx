@@ -1,5 +1,6 @@
 function Footer() {
   function sendtoinstagram(){
+  window.open("https://www.instagram.com/mxdelite/", "_blank");
 
   }
   function sendtoemail(){
