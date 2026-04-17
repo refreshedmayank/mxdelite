@@ -1,3 +1,4 @@
+
 function Hero() {
   return (
     <div className=" mt-24 p-24 min-h-screen  flex flex-col justify-center">

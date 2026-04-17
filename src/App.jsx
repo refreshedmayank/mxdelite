@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
@@ -9,15 +10,16 @@ import Contact from "./Components/contact";
 
 const App = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
-      <Hero />
-      <Problems />
-      <Services />
-      <SecondHero />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/problems" element={<Problems />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 };
 
