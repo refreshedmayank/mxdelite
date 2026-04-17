@@ -18,15 +18,15 @@ function Handlechange(e){
   }
 
   return (
-    <div className="flex flex-col gap-6">
-      <div className="r">
+    <div className= " mt-20  flex flex-col gap-6">
+      <div className="border rounded-md p-2">
         <span>04 — Contact</span>
         <h2>Let's build</h2>
         <p>
           Tell us about your project. We will get back to you within 24 hours
           with a plan built around your brand.
         </p>
-        <div className="flex flex-col">
+        <div className=" flex flex-col">
           <span>Email</span>
           <a href="#">mxdelitehq@gmail.com</a>
           <span>Instagram</span>
@@ -36,12 +36,12 @@ function Handlechange(e){
         </div>
       </div>
 
-      <div className=" p-6 flex flex-col text-lg">
+      <div className=" border rounded-md p-6 flex flex-col text-lg">
         <label className="text-center" htmlFor="name">
           Name
         </label>
         <input
-          className="rounded-sm bg-black border"
+          className="rounded-sm bg-black border "
           type="text"
           id="name"
           value={form.name}
@@ -51,7 +51,7 @@ function Handlechange(e){
           Email
         </label>
         <input
-          className="rounded-sm border bg-transparent text-white "
+          className="rounded-md border bg-transparent text-white "
           type="email"
           id="email"
           value={form.email}
@@ -61,7 +61,7 @@ function Handlechange(e){
           Project Brief
         </label>
         <textarea
-          className="rounded-sm bg-transparent border text-white "
+          className="rounded-md bg-transparent border text-white "
           id="project_brief"
           name="project_brief"
           value={form.project_brief}
@@ -79,4 +79,3 @@ function Handlechange(e){
   );}
 
 export default Contact;
-
