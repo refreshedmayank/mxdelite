@@ -16,24 +16,78 @@ body {
 
 @layer components {
   .header {
-    @apply flex justify-between items-center px-6 py-4 border-b border-white/10 fixed top-0 left-0 w-full z-50;
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    @apply flex justify-between items-center px-6 py-4 fixed top-0 left-0 w-full z-50;
   }
   .footer{
-    @apply  bg-black flex  p-4 gap-4 justify-center items-center text-lg
+    background: rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    @apply flex p-4 gap-4 justify-center items-center text-lg fixed bottom-0 left-0 w-full;
   }
   .hero{
-    @apply mt-20 pt-20 px-6 min-h-screen flex flex-col justify-center items-center bg-black
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    @apply pt-20 px-6 min-h-screen flex flex-col justify-center items-center;
   }
   .menu{
-    @apply bg-black  fixed top-0 left-0 h-full w-full text-white
+    z-index: 60;
+    @apply fixed top-0 left-0 h-full w-full;
   }
-  .card{
-    @apply rounded-md border p-3  text-lg gap-2 mt-5
+  .menu-bg {
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 60;
+    @apply absolute top-12 left-0 w-full h-[calc(100vh-3rem)] text-white;
+  }
+  .menu-btn {
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    pointer-events: auto;
+  }
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    color: #333;
+    font-family: Arial, sans-serif;
+    max-width: 300px;
+  }
+  .card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
   }
   .section{
-   @apply bg-black 
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
   }
   .btn{
-    @apply rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    @apply rounded-sm mt-5 text-white p-2 w-40 m-auto;
+  }
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px auto;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
   }
 }
