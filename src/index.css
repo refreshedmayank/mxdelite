@@ -24,7 +24,7 @@ body {
   .hero{
     @apply mt-20 pt-20 px-6 min-h-screen flex flex-col justify-center items-center bg-black
   }
-  .nav{
+  .menu{
     @apply bg-black  fixed top-0 left-0 h-full w-full text-white
   }
 }
