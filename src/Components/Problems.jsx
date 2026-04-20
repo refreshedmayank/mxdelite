@@ -1,7 +1,7 @@
 function Problems() {
   return (
     <div>
-      <div className="card mt-12 flex flex-col justify-center items-center p-5 text-xl text-center gap-4">
+      <div className="card mt-20">
         <span>01 — The Problem</span>
         <h2>Your product is good. Your brand is why people aren't buying.</h2>
         <p>
@@ -11,14 +11,14 @@ function Problems() {
       </div>
 
       <div className="flex flex-col gap-6 text-lg">
-        <div className="border border-white/10 rounded-md p-3 mt-5">
+        <div className="card">
           <span>Startup</span>
           <h3>
             Have the idea. Don't have the presentation. That's the gap we fill.
           </h3>
         </div>
 
-        <div className="border border-white/10 rounded-md p-3">
+        <div className="card">
           <span>Ecommerce</span>
           <h3>
             Spending on ads but losing sales at first impression. Branding is
@@ -26,7 +26,7 @@ function Problems() {
           </h3>
         </div>
 
-        <div className="border border-white/20 rounded-md p-3">
+        <div className="card">
           <span>Business</span>
           <h3>
             Your online presence is your first impression. We make sure it is

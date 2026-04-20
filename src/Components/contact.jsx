@@ -19,7 +19,7 @@ function Handlechange(e){
 
   return (
     <div className= " mt-20  flex flex-col gap-6">
-      <div className="border rounded-md p-2">
+      <div className="card p-2">
         <span>04 — Contact</span>
         <h2>Let's build</h2>
         <p>
@@ -36,7 +36,7 @@ function Handlechange(e){
         </div>
       </div>
 
-      <div className=" border rounded-md p-6 flex flex-col text-lg">
+      <div className="card flex flex-col text-lg">
         <label className="text-center" htmlFor="name">
           Name
         </label>

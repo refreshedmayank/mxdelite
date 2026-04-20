@@ -5,7 +5,7 @@ function Services() {
       <h2>What We Build</h2>
 
       <div className="  flex flex-col gap-6 p-">
-        <div className=" rounded-md border p-3  text-lg gap-2 mt-5" >
+        <div className="card" >
           <span>01</span>
           <h3>Websites</h3>
           <p>
@@ -15,7 +15,7 @@ function Services() {
           <p>The result — presence that sells</p>
         </div>
 
-        <div className=" rounded-md border p-3 text-lg gap-2">
+        <div className="card">
           <span>02</span>
           <h3>Brand Identity</h3>
           <p>
@@ -25,7 +25,7 @@ function Services() {
           <p>The result — a brand that owns the room</p>
         </div>
 
-        <div className=" rounded-md border p-3 text-lg gap-x-24 ">
+        <div className="card">
           <span>03</span>
           <h3>Social Media</h3>
           <p>
