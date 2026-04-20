@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="mt-24 px-6 min-h-screen flex flex-col justify-center items-center">
+    <div className="hero">
       <section className="max-w-2xl text-center space-y-6">
         
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">

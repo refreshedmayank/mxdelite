@@ -21,4 +21,7 @@ body {
   .footer{
     @apply  bg-black flex  p-4 gap-4 justify-center items-center text-lg
   }
+  .hero{
+    @apply mt-24 px-6 min-h-screen flex flex-col justify-center items-center bg-slate-400
+  }
 }
