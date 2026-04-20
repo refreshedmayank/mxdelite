@@ -61,4 +61,26 @@ body {
     @apply rounded-sm mt-5 text-white p-2 w-40 m-auto;
   }
 
+  .typography {
+    @apply text-white font-sans leading-relaxed;
+  }
+  .typography-heading {
+    @apply text-4xl md:text-5xl font-black tracking-tight text-white;
+  }
+  .typography-subtitle {
+    @apply text-2xl md:text-3xl font-semibold text-slate-200;
+  }
+  .typography-body {
+    @apply text-base md:text-lg text-slate-300 leading-8;
+  }
+  .typography-small {
+    @apply text-sm text-slate-400;
+  }
+  .typography-link {
+    @apply text-cyan-300 hover:text-white underline;
+  }
+  .typography-muted {
+    @apply text-slate-500;
+  }
+
 }
