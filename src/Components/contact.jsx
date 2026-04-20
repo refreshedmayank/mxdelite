@@ -69,7 +69,7 @@ function Handlechange(e){
           onChange={Handlechange}
         ></textarea>
         <button
-          className=" rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto"
+          className="btn"
           type="submit"
           onClick={Handlesubmit}
         >

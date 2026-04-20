@@ -33,4 +33,7 @@ body {
   .section{
    @apply bg-black bg-slate-600 -z-50 
   }
+  .btn{
+    @apply rounded-sm mt-5 bg-transparent border text-white p-2 w-40 m-auto
+  }
 }
