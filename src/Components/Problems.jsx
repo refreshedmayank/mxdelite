@@ -1,6 +1,6 @@
 function Problems() {
   return (
-    <div>
+    <div className="section">
       <div className="card mt-20">
         <span>01 — The Problem</span>
         <h2>Your product is good. Your brand is why people aren't buying.</h2>

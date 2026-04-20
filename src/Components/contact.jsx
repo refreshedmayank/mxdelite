@@ -18,6 +18,7 @@ function Handlechange(e){
   }
 
   return (
+    <div className="section">
     <div className= " mt-20  flex flex-col gap-6">
       <div className="card p-2">
         <span>04 — Contact</span>
@@ -75,6 +76,7 @@ function Handlechange(e){
           Submit
         </button>
       </div>
+    </div>
     </div>
   );}
 

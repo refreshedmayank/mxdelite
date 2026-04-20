@@ -1,5 +1,6 @@
 function Hero() {
   return (
+    // <div className="section">
     <div className="hero">
       <section className="max-w-2xl text-center space-y-6">
         
@@ -12,9 +13,11 @@ function Hero() {
           <span>Brand Identity</span>
           <span>Social Media</span>
         </div>
+        
 
       </section>
     </div>
+    // </div>
   );
 }
 

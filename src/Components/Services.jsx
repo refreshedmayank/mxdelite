@@ -1,5 +1,6 @@
 function Services() {
   return (
+    <div className="section">
     <div className=" mt-14 p-3 text-lg ">
       <span>02 — Services</span>
       <h2>What We Build</h2>
@@ -35,6 +36,7 @@ function Services() {
           <p>The result — credibility at every touchpoint</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
