@@ -25,29 +25,19 @@ body {
     background: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    @apply flex p-4 gap-4 justify-center items-center text-lg fixed bottom-0 left-0 w-full;
+    @apply flex p-4 gap-4 justify-center items-center text-lg fixed bottom-0 left-0 w-full ;
   }
   .hero{
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
     @apply pt-20 px-6 min-h-screen flex flex-col justify-center items-center;
   }
-  .menu{
-    z-index: 60;
-    @apply fixed top-0 left-0 h-full w-full;
+  .menu {
+    background: rgba(0, 0, 0, 0.958);
+    
+    @apply absolute top-12 left-0 w-full h-full text-white z-10;
   }
-  .menu-bg {
-    background: rgba(0, 0, 0, 0.9);
-    z-index: 60;
-    @apply absolute top-12 left-0 w-full h-[calc(100vh-3rem)] text-white;
-  }
-  .menu-btn {
-    z-index: 100;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: white;
-    pointer-events: auto;
-  }
+
   .card {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
