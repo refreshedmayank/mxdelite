@@ -25,7 +25,7 @@ body {
     background: rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    @apply flex p-4 gap-4 justify-center items-center text-lg fixed bottom-0 left-0 w-full ;
+    @apply flex p-4 gap-4 justify-center items-center text-lg bottom-0 left-0 w-full ;
   }
   .hero{
     background: rgba(0, 0, 0, 0.5);
