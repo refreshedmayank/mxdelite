@@ -15,7 +15,7 @@ function Header() {
         <div className="w-10"></div>
       </div>
       {isopen && (
-        <nav className="bg-black  fixed top-0 left-0 h-full w-full text-white">
+        <nav className="nav">
           <div className="mt-20 p-6 flex flex-col gap-10 text-center">
             <Link to="/" onClick={closemenu}>Home</Link>
             <Link className="" to="/services" onClick={closemenu}>
