@@ -1,15 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
+
+body {
   background-color: #000000;
   color: white;
-
-  font-family: 'Montserrat', sans-serif;;
-
+  font-family: 'Montserrat', sans-serif;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@layer components {
+  .header {
+    @apply flex justify-between items-center px-6 py-4 border-b border-white/10 fixed top-0 left-0 w-full ;
+  }
 }

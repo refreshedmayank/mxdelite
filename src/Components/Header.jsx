@@ -5,8 +5,9 @@ function Header() {
   const closemenu = () =>{
     setisopen(false)}
   return (
+    
     <div>
-      <div className=" bg-black  text-center flex justify-between items-center p-4 z-50 fixed top-0 left-0 w-full ">
+      <div className="header">
         <button className="w-10" onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
