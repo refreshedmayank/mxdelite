@@ -8,7 +8,7 @@ function Header() {
     
     <div>
       <div className="header">
-        <button className="w-10" onClick={() => setisopen(!isopen)}>
+        <button className="w-10"  onClick={() => setisopen(!isopen)}>
           {isopen ? "x" : "☰"}
         </button>
         <span className="font-['Montserrat']">Mxdelite</span>
