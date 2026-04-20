@@ -1,6 +1,7 @@
 function Problems() {
   return (
     <div className="section">
+      <div className="section_bg">
       <div className="card mt-20">
         <span>01 — The Problem</span>
         <h2>Your product is good. Your brand is why people aren't buying.</h2>
@@ -32,6 +33,7 @@ function Problems() {
             Your online presence is your first impression. We make sure it is
             the right one.
           </h3>
+        </div>
         </div>
       </div>
     </div>
